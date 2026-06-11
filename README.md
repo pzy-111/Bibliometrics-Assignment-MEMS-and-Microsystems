@@ -172,8 +172,8 @@
 
 ```
 project-root/
-├── README.md                    # 项目主说明文档（替换原README2.md，整合项目背景、方法、使用说明）
-├── data/                        # 数据目录（按原始/处理后拆分，更符合学术规范）
+├── README.md                    # 项目主说明文档
+├── data/                        # 数据目录
 │   ├── raw/                     # 原始未处理数据
 │   │   ├── wos_raw.csv          # 原始Web of Science文献数据（3039篇）
 │   │   └── 检索式.txt            # 文献检索策略
@@ -185,19 +185,19 @@ project-root/
 ├── scripts/                     # 脚本目录（和目标模板命名对齐，按功能分类）
 │   ├── data_cleaning.py         # 数据清洗脚本（重命名原src/wos_clean.py）
 │   ├── author_disambiguation.py # 作者消歧脚本（原src/disambiguate.py）
-│   └── main_analysis.py         # 主分析/可视化脚本（原src/main.py，可按需改名）
-├── figures/                     # 图表目录（完全和目标模板命名一致，无重复）
+│   └── main_analysis.py         # 主分析/可视化脚本（原src/main.py）
+├── figures/                     # 图表目录
 │   ├── keyword_clusters.png      # 关键词聚类图
 │   ├── keyword_burst.png         # 关键词突现图
 │   ├── author_network.png       # 作者合作网络图
 │   ├── institution_map.png      # 机构合作地图
 │   ├── top10_milestone.png      # Top 10 里程碑论文综合分析图
 │   └── publication_trend.png    # 发文趋势量图
-└── docs/                        # 文档目录（整合所有报告、论文、交付物）
+└── docs/                        # 文档目录
     ├── deliverables/
-    │   └── M2产出清单.docx      # 项目交付物清单（保留最新版）
+    │   └── M2产出清单.docx      # 项目交付物清单
     ├── reports/
-    │   ├── Final_Report.pdf      # 课程论文/最终研究报告（整合所有版本的课程论文，保留最终版）
+    │   ├── Final_Report.pdf      # 课程论文/最终研究报告
     │   ├── 文献计量分析报告.docx # 分析报告文档
     │   └── 柔性MEMS领域研究热点与发展趋势分析.docx # 主题相关报告
     └── data_cleaning_rules.docx # 数据清洗规则说明
